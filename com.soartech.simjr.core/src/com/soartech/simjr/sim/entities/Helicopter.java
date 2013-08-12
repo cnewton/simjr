@@ -55,7 +55,7 @@ public class Helicopter extends Vehicle
         // TODO: RWA weapons
         WeaponPlatform weapons = Adaptables.adapt(this, WeaponPlatform.class);
         weapons.addWeapon(Weapon.load("20mm-cannon", 1000));
-        weapons.addWeapon(Weapon.load("hellfire", 4));
+        weapons.addWeapon(Weapon.load("hellfire", 5));
         //addWeapon(new Weapon("Hydra70-HE", "rockets", 4, 4));
         
         // Civilian Huey has 400 gal tank & 2.2hr flight time
